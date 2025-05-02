@@ -1,4 +1,5 @@
 >인프런-10주완성 C++ 코딩테스트 | 알고리즘 코딩테스트 참조
+>이 내용은 강의 내용을 바탕으로 제 방식대로 정리한 것입니다. 오류가 있을 수 있습니다.
 
 #재귀함수(recursion)의 기본개념과 예제
 ==================================
@@ -21,7 +22,7 @@ int factorial(int n){
 ### 1-2 Factorial을 반복문으로 표현하기
 ```
 int factorial(int n){
-    for(int i=1; i<=n; i++){
+    for(int i=n; i>0; i--){
         result *= i;
     }
     reutn result;
